@@ -324,7 +324,7 @@ python test_phase3_official_loso.py --multi-seed 5 --quiet
 ## 10. Limites et travaux futurs
 
 - **n=24** reste très faible. La variance fold-à-fold reste l'obstacle dominant ;
-  un dataset plus large (KNM2 complet) est la prochaine étape.
+  un dataset plus large (KNM2 complet: nouvel outil du laboratoire Scribens) est la prochaine étape.
 - **SSL pretrain** implémenté (`PatchTSTReconstructor`) mais pas exploité dans les runs
   finaux faute de données non-labellisées additionnelles.
 - L'analyse d'attention reste **descriptive** ; un protocole d'attribution plus rigoureux
@@ -346,5 +346,5 @@ python test_phase3_official_loso.py --multi-seed 5 --quiet
 
 ## 12. Auteur
 
-**Rostand Njomo** — INF8225, Polytechnique Montréal — Hiver 2026.
-Encadrement et données : équipe Neuroscribens (laboratoire Scribens).
+**Rostand Njomo** - INF8225, Polytechnique Montréal - Hiver 2026.
+Encadrement et données : équipe (laboratoire Scribens).
