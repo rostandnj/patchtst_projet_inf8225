@@ -1,4 +1,4 @@
-# PatchTST pour la détection du TDAH à partir d'écriture manuscrite
+# Exploration de PatchTST pour la classification de profils neuromoteurs TDAH chez l'enfant : tracés bruts ou paramètres sigma-lognormaux ?
 
 # Déclaration d'utilisation d'outils d'IA
 
