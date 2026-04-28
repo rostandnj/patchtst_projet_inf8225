@@ -1,0 +1,37 @@
+# Données privées (Neuroscribens KNM2 mini)
+data/raw/
+data/processed/
+data/external/
+*.npz
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs et checkpoints
+logs/
+checkpoints/
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Outputs intermédiaires (mais on garde results/*.csv)
+results/**/*.npz
+results/**/checkpoints/

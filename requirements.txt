@@ -1,0 +1,25 @@
+# --- Core scientific stack (épinglé sur NumPy 1.x pour compatibilité large)
+# NumPy 2.x a une nouvelle ABI incompatible avec de nombreux paquets compilés
+# avant 2024 (incluant certaines wheels PyTorch). On reste sur 1.26.x qui
+# est la dernière 1.x stable et est compatible avec tout l'écosystème ML.
+numpy>=1.26.0,<2.0.0
+scipy>=1.11.0,<1.14.0
+pandas>=2.0.0,<2.3.0
+
+# --- ML
+scikit-learn>=1.3.0,<1.6.0
+
+# --- Visualisation
+matplotlib>=3.7.0,<3.10.0
+seaborn>=0.12.0,<0.14.0
+
+# --- Deep learning (Phase 3+)
+# PyTorch 2.2+ supporte MPS sur Apple Silicon (M5 Pro)
+torch>=2.2.0,<2.5.0
+
+# --- Storage
+pyarrow>=13.0.0,<17.0.0
+
+# --- Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
